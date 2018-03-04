@@ -11,6 +11,7 @@ import org.springframework.web.reactive.function.client.WebClient
 import org.springframework.web.reactive.function.client.WebClientResponseException
 import org.springframework.web.reactive.function.client.bodyToMono
 import reactor.core.publisher.Flux
+import reactor.core.publisher.toMono
 import reactor.retry.retryExponentialBackoff
 import java.time.Duration
 import java.util.Random

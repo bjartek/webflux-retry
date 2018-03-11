@@ -47,7 +47,7 @@ dependencies {
   compile("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
   compile("org.jetbrains.kotlin:kotlin-reflect")
   compile "io.projectreactor.addons:reactor-extra:3.1.6.RELEASE"
-
+  compile "io.micrometer:micrometer-registry-prometheus"
   runtime('org.springframework.boot:spring-boot-devtools')
   testCompile('org.springframework.boot:spring-boot-starter-test')
   testCompile('io.projectreactor:reactor-test')
